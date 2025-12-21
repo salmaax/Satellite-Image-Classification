@@ -99,8 +99,7 @@ The model failed to converge to competitive performance due to the absence of pr
   * Inception V1
   * MobileNetV2
 * **VGG19 trained from scratch** for comparison purposes
-* Input images kept at **64 × 64** to match the native EuroSAT resolution
-  Pre-trained architectures were adapted to accept smaller input dimensions, acknowledging a trade-off between computational efficiency and representational capacity
+* Input images were resized to **224 × 224** to meet the input requirements of ImageNet pre-trained architectures.
 * Final classification layer adjusted to match the **10 EuroSAT classes**
 
 ---
